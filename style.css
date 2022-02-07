@@ -1,4 +1,4 @@
-﻿/* подключаем шрифты к странице директивой @font-face,
+/* подключаем шрифты к странице директивой @font-face,
 разберёмся в следующем спринте */
 @font-face {
   src: url(https://code.s3.yandex.net/web-code/fonts/PTMono-Regular.woff);
@@ -172,7 +172,7 @@ bottom: 40px;
 
 .menu__picture_theme_expression {
 bottom: 40px;
- right: 40px;
+ right: 30px;
 }
 
 /* общие свойства контейнеров с обычными иллюстрациями в тексте */
@@ -213,7 +213,7 @@ bottom: 40px;
 /* свойства контейнера с информацией об авторах и авторских правах */
 .content__item_type_copyright {
   margin-top: 40px;
-  font-size: 22px;
+  font-size: 25px;
   line-height: 30px;
   color: #a6a6a6;
 }
@@ -221,7 +221,7 @@ bottom: 40px;
 /* свойства текста строки с информацией об авторе */
 .content__text_type_copyright {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 44px;
   margin-bottom: 0;
 }
 .menu__item:hover .menu__picture {
